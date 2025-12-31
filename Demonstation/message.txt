@@ -1,1 +1,10 @@
+Hey!
 
+This project is made because andrew ng told us that if we experiment with datasets and models and generate their learning curves, it would be better for our own understanding. So, I first tried this on the California Housing dataset, and used the most basic model of all time, the linear regression model, i will upload the code of the other models like xgbboost or randomforest as i'm planning to experiment of them too. 
+This is just to tell you why this project is what it is. 
+It's after so long that ive watched an actual lecture and read my books
+btw, it 31st December, chilly af, 
+Happy New Year! 2026!
+even though I know noone is reading this!
+still someday maybe, someone will!
+byee!
