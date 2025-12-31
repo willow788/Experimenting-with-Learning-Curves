@@ -1,0 +1,69 @@
+SO, we will go through each cell of the jupyter notebook one by one.
+
+CELL1:
+this is a default cell that imports numpy and pandas for data processig and linear algebra. 
+this cell was created by kaggle by default.
+
+CELL 2:
+In this cell we are importing every assets that we will be requiring
+numpy for linear algebra
+matplotlib.pyplot for ploting graphs
+then oviously your california housing dataset
+then for preprocessing the data we are importing standardscaler
+by standardscalar we remove mean from the feature and scale them to unit variance.
+this is very widely used in logistic regression and linear regression model
+then we import train test split and kfold, by this we break the dataset into training set, cross validation set and the testing set.
+then you are importing the linear regression model 
+then we are importing pipeline
+
+CELL 3:
+then with the help of pandas we are loading and reading the dataset in kaggle notebook. This might vary in google colab or in your own local IDE
+then we copy the dataset, so that we done tamper the original data
+after this we are preprocessing a very important feature: total bedrooms, incase if there are some null spaces in that column or row (idk i can't remmember rn) then that null is filled with the median of this particular feature.
+then we are converting the catagorical feature called ocean proximity to a numerical feature, so that it will be usefull for us. this is done using one hot encoding.
+
+CELL 4:
+x will have the features and y will will have the target
+
+CELL 5:
+then we are spliting the dataset
+1st we are spliting the dataset in a 80 20 ratio.
+2nd we are spliting it in a ratio of 40 60 
+
+CELL 6:
+we are fitting and training the model with the data.
+we are using two models but both of them are linear regression models actually.
+
+CELL7: 
+now we are using the models to predict output 
+
+CELL 8:
+Now we are calculating the mean square errors and r2 scores of both the models.
+
+CELL 9:
+we print the mse of respective models.
+did we need another cell? no . why did i do this? who knows!
+
+CELL 10:
+now we are printing the r2 scores of the respective models
+
+CELL 11:
+we are plotting the 1st model's actual prices vs the predicted prices graph
+
+CELL 12:
+we are plotting the 2nd model's actual prices vs the predicted prices graph
+
+CELL 13:
+here we are generating the train_errors and validation errors. Actually we are calculating then rather than generating
+
+CELL 14:
+we are plotting the learning curves.
+
+KEY OBSERVATIONS:
+As the training set size increases, we see that the mean square errors reduce.
+Validation erros were initially lower than training error when we were starting out, then as the training set size keeps on increasing the validation error is increasing.
+this is due to variation in the dataset ,not the model
+
+had made some hange for the laearning curves code in the model 
+will update that
+
